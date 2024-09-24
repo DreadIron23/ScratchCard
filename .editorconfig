@@ -1,0 +1,9 @@
+# https://editorconfig.org
+# NOTE: this file is read by ktlint so be careful what you put here.
+root = true
+
+[{*.kt,*.kts}]
+max_line_length = 120
+
+ktlint_standard_annotation = disabled # disabled due to issue: https://github.com/pinterest/ktlint/issues/2138
+ktlint_function_naming_ignore_when_annotated_with=Composable, Test
